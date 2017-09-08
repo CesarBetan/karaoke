@@ -11,6 +11,8 @@ import { ReservationPage } from "../pages/reservation/reservation";
 import { KaraokePage } from "../pages/karaoke/karaoke";
 import { FoodPage } from "../pages/food/food";
 import { UserPage } from "../pages/user/user";
+import {ReproductionPage} from "../pages/reproduction/reproduction";
+import {SongsPage} from "../pages/songs/songs";
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { UserPage } from "../pages/user/user";
     ReservationPage,
     KaraokePage,
     FoodPage,
-    UserPage
+    UserPage,
+    ReproductionPage,
+    SongsPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,9 @@ import { UserPage } from "../pages/user/user";
     ReservationPage,
     KaraokePage,
     FoodPage,
-    UserPage
+    UserPage,
+    ReproductionPage,
+    SongsPage
   ],
   providers: [
     StatusBar,

@@ -8,5 +8,10 @@
 
 
 <ion-content padding>
-  Hola karaoke Page
+
+  <ion-tabs>
+    <ion-tab [root]="tab1root" tabTitle="Lista de Reproduccion" tabIcon="headset"></ion-tab>
+    <ion-tab [root]="tab2root" tabTitle="Buscar cancion" tabIcon="search"></ion-tab>
+  </ion-tabs>
+
 </ion-content>
