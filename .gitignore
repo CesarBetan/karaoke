@@ -1,4 +1,4 @@
-# Specifies intentionally untracked files to ignore when using Git
+git remote add origin ssh://git@bitbucket.org/Cedapai/karaoke.git# Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
 *~
