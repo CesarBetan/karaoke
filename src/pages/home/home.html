@@ -1,40 +1,52 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Karaoke Bar
-    </ion-title>
+    <ion-title>Karaoke Bar</ion-title>
   </ion-navbar>
+  <!--<ion-grid>
+    <ion-row text-center>
+      <ion-title>Karaoke Bar</ion-title>
+    </ion-row>
+  </ion-grid>-->
 </ion-header>
 
 <ion-content padding>
-  <ion-grid text-center>
+  <div>
     <ion-row>
-      <ion-col col-12>
-        <ion-img width="100" height="100" src="assets/img/singer.png" id="img-logo-login"></ion-img>
+      <ion-card>
+        <img src="assets/img/Promocion.png"/>
+      </ion-card>
+    </ion-row>
+  </div>
+  <div>
+    <ion-row>
+      <ion-col col-6>
+        <ion-card>
+          <img [navPush]="homepagePage" src="assets/img/MenuBar.png"/>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card>
+          <img [navPush]="homepagePage" src="assets/img/Reservaciones.png"/>
+        </ion-card>
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col col-sm-12>
-        <ion-list>
-          <ion-item>
-            <ion-label stacked>Usuario</ion-label>
-            <ion-input type="text"></ion-input>
-          </ion-item>
-          <ion-item>
-            <ion-label stacked>Contraseña</ion-label>
-            <ion-input type="password"></ion-input>
-          </ion-item>
-            <button ion-button clear>Recuperar Contraseña</button>
-        </ion-list>
-        <button ion-button color="light" full>Ingresar</button>
-        <p>
-          <button ion-button color="dark" clear>Crear Cuenta<br><br>Soy nuevo en Karaoke</button>
-        </p>
-        <p>
-          <button ion-button color="dark" clear></button>
-        </p>
+      <ion-col col-6>
+        <ion-card>
+          <img [navPush]="homepagePage" src="assets/img/Karaoke.png"/>
+        </ion-card>
+      </ion-col>
+      <ion-col col-6>
+        <ion-card>
+          <img [navPush]="homepagePage" src="assets/img/Perfil.png"/>
+        </ion-card>
       </ion-col>
     </ion-row>
-  </ion-grid>
-
+  </div>
 </ion-content>

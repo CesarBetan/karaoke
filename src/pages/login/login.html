@@ -1,0 +1,36 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-grid text-center>
+    <ion-row>
+      <ion-col col-12>
+        <ion-img width="100" height="100" src="assets/img/singer.png" id="img-logo-login"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-sm-12>
+        <ion-list>
+          <ion-item>
+            <ion-label stacked>Usuario</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label stacked>Contraseña</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+            <button ion-button clear>Recuperar Contraseña</button>
+        </ion-list>
+        <button ion-button color="light" full [navPush]="homePage">Ingresar</button>
+        <p>
+          <button ion-button color="dark" clear>Crear Cuenta<br><br>Soy nuevo en Karaoke</button>
+        </p>
+        <p>
+          <button ion-button color="dark" clear></button>
+        </p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
