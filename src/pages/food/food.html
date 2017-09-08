@@ -17,91 +17,89 @@
   <ion-grid>
     <ion-row>
       <ion-col col-12 text-center>
-        <ion-img width="100" height="100" src="assets/img/singer.png" id="img-logo-menu"></ion-img>
+        <ion-img width="100" height="100" src="assets/img/fast-food.png" id="img-logo-menu"></ion-img>
       </ion-col>
     </ion-row>
+
     <ion-row>
-      <ion-col text-center text-capitalize>
+      <ion-col col-12 text-center text-capitalize>
         <h1><u>Menú</u></h1>
       </ion-col>
     </ion-row>
-    <ion-row>
-      <ion-col text-center text-capitalize>
-        <h4><u>Hamburguesas</u></h4>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6 text-justify>
-        Hamburguesa
-        <p>Jugosa carne de res con pan hecho en casa, lechuga y jítomate</p>
-      </ion-col>
-      <ion-col col-6 text-right>
-        MXN $60
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6 text-justify>
-        Hamburguesa con queso
-        <p>Jugosa carne de res con pan hecho en casa, queso, lechuga y jítomate</p>
-      </ion-col>
-      <ion-col col-6 text-right>
-        MXN $60
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col text-center text-capitalize>
-        <h4><u>Ensaladas</u></h4>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6 text-justify>
-        Ensalada Cesar
-        <p>La tradicional ensalada Cesar</p>
-      </ion-col>
-      <ion-col col-6 text-right>
-        MXN $120
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6 text-justify>
-        Ensalada Capresse
-        <p>Rebanadas de jitomate frescon con queso mozarella y vinagreta de la casa</p>
-      </ion-col>
-      <ion-col col-6 text-right>
-        MXN $120
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col text-center text-capitalize>
-        <h4><u>Cervezas</u></h4>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6 text-justify>
-        Indio
-        <p></p>
-      </ion-col>
-      <ion-col col-6 text-right>
-        MXN $20
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6 text-justify>
-        Corona
-        <p></p>
-      </ion-col>
-      <ion-col col-6 text-right>
-        MXN $20
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6 text-justify>
-        Victoria
-        <p></p>
-      </ion-col>
-      <ion-col col-6 text-right>
-        MXN $20
-      </ion-col>
-    </ion-row>
+    <ion-list>
+      <ion-item-divider>
+        <ion-col col-12 text-center text-capitalize>
+          <h3><u>Hamburguesas</u></h3>
+        </ion-col>
+      </ion-item-divider>
+      <ion-item>
+        <ion-col col-8 text-justify>
+          Hamburguesa
+          <p>Jugosa carne de res con pan hecho en casa, lechuga y jítomate</p>
+        </ion-col>
+        <ion-col col-4 text-right>
+          MXN $60
+        </ion-col>
+      </ion-item>
+      <ion-item>
+        <ion-col col-8 text-justify>
+          Hamburguesa con queso
+          <p>Jugosa carne de res con pan hecho en casa, queso, lechuga y jítomate</p>
+        </ion-col>
+        <ion-col col-4 text-right>
+          MXN $60
+        </ion-col>
+      </ion-item>
+      <ion-item-divider>
+        <ion-col col-12 text-center text-capitalize>
+          <h2><u>Ensaladas</u></h2>
+        </ion-col>
+      </ion-item-divider>
+      <ion-item>
+        <ion-col col-8 text-justify>
+          Ensalada Cesar
+          <p>La tradicional ensalada Cesar</p>
+        </ion-col>
+        <ion-col col-4 text-right>
+          MXN $120
+        </ion-col>
+      </ion-item>
+      <ion-item>
+        <ion-col col-8 text-justify>
+          Ensalada Capresse
+          <p>Rebanadas de jitomate frescon con queso mozarella y vinagreta de la casa</p>
+        </ion-col>
+        <ion-col col-4 text-right>
+          MXN $120
+        </ion-col>
+      </ion-item>
+      <ion-item-divider>
+        <ion-col col-12 text-center text-capitalize>
+          <h2><u>Cervezas</u></h2>
+        </ion-col>
+      </ion-item-divider>
+      <ion-item>
+        <ion-col col-8 text-justify>
+          Indio
+          <p></p>
+        </ion-col>
+        <ion-col col-4 text-right>
+          MXN $20
+        </ion-col>
+      </ion-item>
+      <ion-item>
+        <ion-col col-8 text-justify>
+          Corona
+          <p></p>
+        </ion-col>
+        <ion-col col-4 text-right>
+          MXN $20
+        </ion-col>
+      </ion-item>
+    </ion-list>
+
   </ion-grid>
+  <ion-fab center bottom>
+    <button text-center ion-button color="danger" >Terminar y pagar</button>
+  </ion-fab>
 </ion-content>
