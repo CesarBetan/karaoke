@@ -32,35 +32,20 @@
 #img-logo-login{
   background-color: white !important;
 }
-#menu-navbar{
-  background-color: rgb(193,22,30);
-  color: white;
 
-}
 #menu-navbar p{
-  color: white;
-}
-#reservation-navbar{
-  background-color: rgb( 89,155,63);
-  color: white;
+  color: rgb(193,22,30);
 }
 #reservation-navbar p{
-  color: white;
-}
-#karaoke-navbar{
-  background-color: rgb(34,95,221);
-  color: white;
+  color: rgb( 89,155,63);
 }
 #karaoke-navbar p{
-  color: white;
+  color: rgb(34,95,221);
 }
 
-#user-navbar{
-  background-color: rgb(253,135,11);
 
-}
 #user-navbar p{
-  color: white;
+  color: rgb(253,135,11);
 }
 body{
   font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -75,7 +60,7 @@ ion-card {
 .card-title {
     position: absolute;
     top:70%;
-    font-size: 1.5em;
+    font-size: 1.15em;
     width: 100%;
     font-weight: bold;
     color: #fff;
