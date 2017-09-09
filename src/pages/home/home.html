@@ -7,35 +7,41 @@
 <ion-content padding>
   <div>
     <ion-row>
-      <ion-card>
-        <img src="assets/img/Promocion.png"/>
-      </ion-card>
+      <ion-col col-lg-3></ion-col>
+      <ion-col col-lg-6 col-12>
+        <ion-card text-center>
+          <img src="assets/img/Promocion.png"/>
+        </ion-card>
+      </ion-col>
     </ion-row>
   </div>
   <div>
     <ion-row>
-      <ion-col col-6>
-        <ion-card>
-          <img [navPush]="foodPage" src="assets/img/MenuBar.png"/>
+      <ion-col col-6 col-lg-3>
+        <ion-card [navPush]="foodPage">
+          <img src="assets/img/MenuBar.jpg"/>
+          <div class="card-title">Menú bar</div>
         </ion-card>
       </ion-col>
-      <ion-col col-6>
+      <ion-col col-6 col-lg-3>
         <ion-card>
-          <img [navPush]="reservationPage" src="assets/img/Reservaciones.png"/>
+          <img [navPush]="reservationPage" src="assets/img/Reservaciones.jpg"/>
+          <div class="card-title">Reservaciones</div>
         </ion-card>
       </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-6>
+
+      <ion-col col-6 col-lg-3>
         <ion-card>
-          <img [navPush]="karaokePage" src="assets/img/Karaoke.png"/>
+          <img [navPush]="karaokePage" src="assets/img/Karaoke.jpg"/>
+          <div class="card-title">Karaoke</div>
         </ion-card>
       </ion-col>
-      <ion-col col-6>
+      <ion-col col-6 col-lg-3>
         <ion-card>
-          <img [navPush]="userPage" src="assets/img/Perfil.png"/>
+          <img [navPush]="userPage" src="assets/img/Perfil.jpg"/>
+          <div class="card-title">Perfil</div>
         </ion-card>
       </ion-col>
-    </ion-row>
+      </ion-row>
   </div>
 </ion-content>
