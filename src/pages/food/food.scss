@@ -4,3 +4,9 @@ page-food {
 #img-logo-menu{
   background-color: white !important;
 }
+
+#btn-order-food{
+  position: fixed;
+  bottom: -4px;
+  z-index: 100;
+}
