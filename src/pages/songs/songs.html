@@ -1,7 +1,7 @@
-<ion-content id="songs-scroll-content">
+<ion-content id="songs-scroll-content" class="background-img">
   <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
   <ion-list>
-    <ion-item *ngFor="let item of items">
+    <ion-item *ngFor="let item of items" class="transparent-list">
       {{ item }}
     </ion-item>
   </ion-list>

@@ -6,18 +6,18 @@
 -->
 <ion-header>
 
-  <ion-navbar >
+  <ion-navbar color="home">
     <ion-title id="menu-navbar"><p>Menú Bar</p></ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="background-img">
   <ion-grid>
     <ion-row>
       <ion-col col-12 text-center>
-        <ion-img width="100" height="100" src="assets/img/fast-food.png" id="img-logo-menu"></ion-img>
+        <img width="100" height="100" src="assets/img/fast-food.png"/>
       </ion-col>
     </ion-row>
 
@@ -26,13 +26,14 @@
         <h1><u>Menú</u></h1>
       </ion-col>
     </ion-row>
+
     <ion-list>
-      <ion-item-divider>
+      <ion-item-divider class="transparent-list">
         <ion-col col-12 text-center text-capitalize>
           <h3><u>Hamburguesas</u></h3>
         </ion-col>
       </ion-item-divider>
-      <ion-item>
+      <ion-item class="transparent-list">
         <ion-col col-8 text-justify>
           Hamburguesa
           <p>Jugosa carne de res con pan hecho en casa, lechuga y jítomate</p>
@@ -41,7 +42,7 @@
           MXN $60
         </ion-col>
       </ion-item>
-      <ion-item>
+      <ion-item class="transparent-list">
         <ion-col col-8 text-justify>
           Hamburguesa con queso
           <p>Jugosa carne de res con pan hecho en casa, queso, lechuga y jítomate</p>
@@ -50,12 +51,12 @@
           MXN $60
         </ion-col>
       </ion-item>
-      <ion-item-divider>
+      <ion-item-divider class="transparent-list">
         <ion-col col-12 text-center text-capitalize>
           <h2><u>Ensaladas</u></h2>
         </ion-col>
       </ion-item-divider>
-      <ion-item>
+      <ion-item class="transparent-list">
         <ion-col col-8 text-justify>
           Ensalada Cesar
           <p>La tradicional ensalada Cesar</p>
@@ -64,7 +65,7 @@
           MXN $120
         </ion-col>
       </ion-item>
-      <ion-item>
+      <ion-item class="transparent-list">
         <ion-col col-8 text-justify>
           Ensalada Capresse
           <p>Rebanadas de jitomate frescon con queso mozarella y vinagreta de la casa</p>
@@ -73,12 +74,12 @@
           MXN $120
         </ion-col>
       </ion-item>
-      <ion-item-divider>
+      <ion-item-divider class="transparent-list">
         <ion-col col-12 text-center text-capitalize>
           <h2><u>Cervezas</u></h2>
         </ion-col>
       </ion-item-divider>
-      <ion-item>
+      <ion-item class="transparent-list">
         <ion-col col-8 text-justify>
           Indio
           <p></p>
@@ -87,7 +88,7 @@
           MXN $20
         </ion-col>
       </ion-item>
-      <ion-item>
+      <ion-item class="transparent-list">
         <ion-col col-8 text-justify>
           Corona
           <p></p>
@@ -101,4 +102,4 @@
   </ion-grid>
 
 </ion-content>
-<button  text-center ion-button color="danger" full id="btn-order-food">Terminar y pagar</button>
+<button  text-center ion-button color="reservation" full id="btn-order-food">Terminar y pagar</button>

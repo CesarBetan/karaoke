@@ -1,34 +1,39 @@
 <ion-header>
 
-  <ion-navbar>
-    <ion-title id="reservation-navbar"><p>Tus Resevaciones</p></ion-title>
+  <ion-navbar color="home">
+    <ion-title id="reservation-navbar"><p>Tus Reservaciones</p></ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="background-img">
   <ion-grid text-center>
     <ion-row>
       <ion-col col-12>
         <h5>Próximas</h5>
       </ion-col>
+
       <ion-col col-12>
         <ion-icon name="calendar"></ion-icon>
         No hay reservaciones hechas
       </ion-col>
-      <ion-col col-2>
-        <h4>Sep</h4>
-        <h4>9</h4>
-      </ion-col>
-      <ion-col col-8>
-        High School Musical Sing Along! - Local Coapa
-        <p>10 Personas asistirán</p>
-      </ion-col>
-      <ion-col col-2>
-        <button color="danger" id="button-edit-reservation"><ion-icon name="create" class="icon-color-blue"></ion-icon></button>
-      </ion-col>
     </ion-row>
+      <ion-card class="reservation-card">
+        <ion-row align-items-center>
+          <ion-col col-2>
+            <h4>Sep</h4>
+            <h4>9</h4>
+          </ion-col>
+          <ion-col col-8>
+            High School Musical Sing Along! - Local Coapa
+            <p>10 Personas asistirán</p>
+          </ion-col>
+          <ion-col col-2>
+            <button color="danger" id="button-edit-reservation"><ion-icon name="create" class="icon-color-blue"></ion-icon></button>
+          </ion-col>
+        </ion-row>
+      </ion-card>
   </ion-grid>
   <ion-fab right bottom>
     <button ion-fab color="danger"><ion-icon name="add"></ion-icon></button>

@@ -1,17 +1,15 @@
-<ion-header>
-  <ion-navbar hideBackButton="true">
-    <ion-title>Karaoke Bar</ion-title>
+<ion-header class="home-header">
+  <ion-navbar hideBackButton="true" text-center color="home">
+    <ion-title>Karaoke Bar App</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="background-img">
   <div>
     <ion-row>
       <ion-col col-lg-3></ion-col>
       <ion-col col-lg-6 col-12>
-        <ion-card text-center>
-          <img src="assets/img/Promocion.png"/>
-        </ion-card>
+          <img src="assets/img/PromoImage.png"/>
       </ion-col>
     </ion-row>
   </div>
@@ -19,26 +17,26 @@
     <ion-row>
       <ion-col col-6 col-lg-3>
         <ion-card [navPush]="foodPage">
-          <img src="assets/img/MenuBar.jpg"/>
+          <img src="assets/img/Menu.png"/>
           <div class="card-title">Menú bar</div>
         </ion-card>
       </ion-col>
       <ion-col col-6 col-lg-3>
         <ion-card>
-          <img [navPush]="reservationPage" src="assets/img/Reservaciones.jpg"/>
+          <img [navPush]="reservationPage" src="assets/img/Reservacion.png"/>
           <div class="card-title">Reservaciones</div>
         </ion-card>
       </ion-col>
 
       <ion-col col-6 col-lg-3>
         <ion-card>
-          <img [navPush]="karaokePage" src="assets/img/Karaoke.jpg"/>
+          <img [navPush]="karaokePage" src="assets/img/Karaoke.png"/>
           <div class="card-title">Karaoke</div>
         </ion-card>
       </ion-col>
       <ion-col col-6 col-lg-3>
         <ion-card>
-          <img [navPush]="userPage" src="assets/img/Perfil.jpg"/>
+          <img [navPush]="userPage" src="assets/img/Perfil.png"/>
           <div class="card-title">Perfil</div>
         </ion-card>
       </ion-col>

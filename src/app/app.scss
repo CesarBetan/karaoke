@@ -15,9 +15,6 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-.ion-img{
-  background-color: white !important;
-}
 
 .icon-color-red{
   font-size: 55px;
@@ -29,24 +26,6 @@
   color: #488aff;
 }
 
-#img-logo-login{
-  background-color: white !important;
-}
-
-#menu-navbar p{
-  color: rgb(193,22,30);
-}
-#reservation-navbar p{
-  color: rgb( 89,155,63);
-}
-#karaoke-navbar p{
-  color: rgb(34,95,221);
-}
-
-
-#user-navbar p{
-  color: rgb(253,135,11);
-}
 body{
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
@@ -59,10 +38,26 @@ ion-card {
 
 .card-title {
     position: absolute;
-    top:70%;
+    top:80%;
     font-size: 1.15em;
     width: 100%;
     font-weight: bold;
     color: #fff;
   }
+
+.background-img{
+  background-image: url('../assets/img/BackGround.png') ;
+  color: white;
+  background-size: 100% 100%;
+}
+
+ion-header ion-icon.back-button-icon.icon {
+  color: map-get($colors, light);
+}
+
+.transparent-list{
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
 

@@ -1,12 +1,22 @@
 page-food {
 
 }
-#img-logo-menu{
-  background-color: white !important;
-}
+
 
 #btn-order-food{
   position: fixed;
   bottom: -4px;
   z-index: 100;
+  color: white;
+  height: 60px;
+}
+
+.transparent-list{
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+p{
+  color: white !important;
 }
